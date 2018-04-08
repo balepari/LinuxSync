@@ -1,0 +1,18 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 9.4.0 _Stretch_ - Official amd64 DVD Binary-1 20180310-11:21]/ stretch contrib main
+
+# deb cdrom:[Debian GNU/Linux 9.4.0 _Stretch_ - Official amd64 DVD Binary-1 20180310-11:21]/ stretch contrib main
+
+deb http://ftp.it.debian.org/debian/ stretch main
+deb-src http://ftp.it.debian.org/debian/ stretch main
+
+deb http://security.debian.org/debian-security stretch/updates main contrib
+deb-src http://security.debian.org/debian-security stretch/updates main contrib
+
+# stretch-updates, previously known as 'volatile'
+deb http://ftp.it.debian.org/debian/ stretch-updates main contrib
+deb-src http://ftp.it.debian.org/debian/ stretch-updates main contrib
+
+#ownCloud repos
+deb http://download.owncloud.org/download/repositories/production/Debian_9.0/ /
